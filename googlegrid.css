@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 400px 400px 50px;
+}
+div{
+    border: 2px solid saddlebrown;
+    padding: 20px;
+}
+.nav2{
+    background-color: orange;
+}

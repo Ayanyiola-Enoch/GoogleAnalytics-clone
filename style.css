@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 19px;
+  height: 10vh;
+  background-color: rgba(237, 237, 241, 0.315);
+  /* border: 2px solid black; */
+}
+.nav1 {
+  display: flex;
+  /* margin-top: -20px; */
+  align-items: center;
+  /* padding: 10px; */
+  /* font-size: 29px; */
+}
+.nav1 > .ana > a {
+  font-size: 28px;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.nav1 > img {
+  width: 100px;
+  height: 40px;
+}
+.nav1 > .img > a {
+  text-decoration: none;
+  color: gray;
+  font-size: 90px;
+}
+.img > img {
+  border-radius: 100%;
+  width: 40px;
+}
+.img > a {
+  text-decoration: none;
+}
+.img {
+  display: flex;
+  gap: 10px;
+  /* margin-top: -10vh; */
+  align-items: center;
+}
+.nav2 {
+  background-color: rgba(255, 94, 0, 0.986);
+  height: 19vh;
+  color: white;
+  height: 10vh;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.nav2 > p {
+  font-size: 18.2px;
+  font-weight: 600;
+}
+.nav2 > p > a {
+  text-decoration: underline;
+  color: white;
+}
+
+main > .learn > p {
+  width: 650px;
+}
+main > .learn > h1 {
+  font: inherit;
+  font-size: 30px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgba(237, 237, 241, 0.315);
+  height: 60vh;
+  /* margin-bottom: 60px; */
+  /* padding: 10px; */
+}
+.learn {
+  width: 36%;
+  margin-left: 90px;
+  margin-top: 54px;
+}
+.learn > h1 {
+  font-size: 44px !important;
+  padding-bottom: 40px;
+}
+.learn > p {
+  font-size: 23px;
+}
+.image1 > img {
+  width: 640px;
+  height: 365px;
+}
+
+.material-icons {
+  margin-top: 280px;
+  /* z-index: 99; */
+  /* margin-right: 10px; */
+  margin-left: 40px;
+  color: #4285f4;
+}
+
+#section2{
+  height: 150vh;
+  padding: 42px;
+  background-color: #4285f4;
+  padding-bottom: 100px;
+}
+#section2>h1{
+margin-left: 50px;
+  color: white;
+}
+
+.beginners{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  margin-left: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  height: 390px;
+  /* margin-left :380px ; */
+  background-color: white;
+  width: 273px;
+  padding-bottom: 40px;
+  padding: 10px 15px;
+}
+.card h3 {
+  color: black;
+  padding: 18px 0px;
+  font-size: 24px;
+}
+.card>a{
+    text-decoration: none;
+}
+.card p {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.card>.arrow{
+    color: rgb(216, 111, 13);
+    font-size: 30px;
+    margin-left: 210px;
+}
+
+.card>.arrowl{
+    color: rgb(216, 111, 13);
+    font-size: 30px;
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+.card>.arrow3{
+    color: rgb(216, 111, 13);
+    font-size: 30px;
+    margin-left: 210px;
+    margin-top: -19px;
+}
+.card>.arrow4{
+    color: rgb(216, 111, 13);
+    font-size: 30px;
+    margin-left: 210px;
+    margin-top: -89px;
+}
+.card .p4{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .card>.arrow2l{
+    color: rgb(216, 111, 13);
+    font-size: 30px;
+    margin-left: 210px;
+    margin-top: 35px;
+  }
+
+.section3{
+  margin-left: 50px;
+  padding: 10px 42px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section3>h2{
+  /* margin-left: 0px; */
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-bottom: 49px;
+}
+
+.instructors{
+  background-color: hsla(0, 0%, 0%, 0.1);
+  margin-right: 60px; 
+  display: flex;
+  height: 200px;
+  margin-bottom: 40px;
+  align-items: center;
+  padding-bottom: 52px;
+  box-shadow: 3px 2px 2px #777777;
+}
+.instructors>img{
+  margin-top: 52px;
+}
+.instructors>.justin>p{
+  margin-top: 11px;
+  margin-left: 20px;
+}
+.justin>h3{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+hr{
+  width: 955.1px;
+  margin-top: 20px;
+  /* margin-left: 70px; */
+}
+
+.section4{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 70px;
+  margin-bottom: -60px;
+  height: 60vh;
+}
+.section4>h3{
+  font-size: 25px;
+  margin-top: 59px;
+  margin-bottom: 20px;
+}
+
+.section4>p{
+  font-size: 16px;
+}
+
+.course{
+  background-color: hsla(0, 0%, 0%, 0.1);
+  width: 250px; 
+  height: 140px;
+  border-radius: 4px;
+  margin-left: 50px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px #55555594;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analy>.course>p{
+  font-size: 16px;
+  margin-left: -10px;
+}
+.analy{
+text-align: center;
+}
+.section4>.analy{
+margin-top: 20px;
+ display: flex ;
+ align-items: center;
+}
+
+footer{
+  background-color: hsla(0, 0%, 0%, 0.1);
+  height: 45vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer>p{
+  font-size: 19px;
+  padding: 20px 0px;
+  margin-left: 70px;
+}
+footer>hr{
+  width: 1349px;
+  /* margin-left: -10px; */
+}
+.demo>.goo>p{
+  font-size: 15px;
+}
+.demo{
+  text-align: center;
+  display: flex;
+}
+.goo{
+  margin-top: 10px;
+}
+.demo{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding: 0px 40px;
+}
+
+.lastfoot{
+  height: 50px;
+}
+.foot1{
+  margin-top: 30px;
+  display: flex;
+  gap: 19px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: end;
+}
+.foot1>a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+
+  body{
+    overflow: hidden;
+  }
+  .img {
+    display: none;
+  }
+  main{
+    display: block;
+   }
+  main>.learn{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px 5px;
+
+  }
+  .learn >h1{
+    font-size: 30px !important;
+    margin-top: 19px;
+  }
+
+  main > .learn > p {
+    width: 100%;
+    font-size: 19px;
+  }
+  .material-icons{
+    display: none;
+  }
+  .image1{
+    display: none;
+  }
+  .nav1 img{
+    width: 70px;
+    padding-right: 8px;
+  }
+  .nav1>.ana>a{
+    font-size: 18px;
+  }
+
+  .nav2{
+    height: 27vh;
+  }
+  #section2{
+    height: 390vh;
+    margin: 0px;
+    padding: 0px;
+  }
+  #section2 h1{
+    padding: 19px;
+  }
+
+  .section3{
+    margin: 0px;
+    padding: 0px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .instructors{
+    background-color: #f2f2f2;
+    margin-right: 60px; 
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    width: 350px;
+    box-shadow: 3px 2px 2px #777777;
+  }
+  .instructors img{
+    display: none;
+  }
+  .course{
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+    
+  hr.jus{
+    width: 350px;
+  }
+  .demo{
+    display: block;
+  }  
+
+  footer{
+    height: 101vh;
+    margin-top: 26px;
+  }
+  footer>hr{
+    width: 413px;
+  }
+  .lastfoot{
+    height: 250px;
+  }
+  .section4{
+    margin: 0;
+    padding: 0px 30px;
+    height: 137vh;
+  }
+  .section4>.analy{
+    margin-top: 20px;
+   display: block;
+   align-items: center;
+  }
+  .justin{
+    width: 100%;
+  }
+  .lastfoot{
+    display: none;
+  }
+    }
